@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MitrKosh — Borrow What You Need. Lend What You Own (Coming Soon)</title>
-  <meta name="description" content="A peer-to-peer gear-sharing vault for students and campus communities. Borrow cameras, tools, camping gear, and appliances at honest prices with 100% deposit protection.">
+  <meta name="description" content="A peer-to-peer gear-sharing platform for campus and neighborhood communities. Borrow cameras, tools, camping gear, and appliances with 100% deposit protection.">
   
   <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,18 +54,19 @@
       <a href="#" class="font-heading text-2xl font-black tracking-tight text-[#1C1917]">
         Mitr<span class="text-[#E05A47]">Kosh</span>
       </a>
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-6">
         <a href="#benefits" class="hidden md:inline-block text-xs font-semibold text-[#66625D] hover:text-[#1C1917] transition">How It Works</a>
-        <a href="#categories" class="hidden md:inline-block text-xs font-semibold text-[#66625D] hover:text-[#1C1917] transition">Gear Catalog</a>
-        <a href="#waitlist" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#E05A47] hover:bg-[#C94532] text-white text-xs font-bold transition shadow-sm hover:shadow">
-          Get VIP Access
+        <a href="#categories" class="hidden md:inline-block text-xs font-semibold text-[#66625D] hover:text-[#1C1917] transition">Explore Gear</a>
+        <a href="#safety" class="hidden md:inline-block text-xs font-semibold text-[#66625D] hover:text-[#1C1917] transition">Safety & Escrow</a>
+        <a href="#notify" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#E05A47] hover:bg-[#C94532] text-white text-xs font-bold transition shadow-sm hover:shadow">
+          Notify Me
         </a>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-br from-[#1A0A00] via-[#2A1102] to-[#120700] text-white overflow-hidden py-20 lg:py-28 px-4 text-center">
+  <section class="relative bg-gradient-to-br from-[#1A0A00] via-[#2A1102] to-[#120700] text-white overflow-hidden py-24 lg:py-32 px-4 text-center">
     <div class="pointer-events-none absolute inset-0 overflow-hidden">
       <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[650px] h-[350px] bg-[#E05A47]/25 rounded-full blur-[120px]"></div>
       <div class="absolute bottom-0 right-10 w-[400px] h-[300px] bg-amber-500/20 rounded-full blur-[100px]"></div>
@@ -74,117 +75,54 @@
     <div class="relative max-w-4xl mx-auto space-y-6">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold text-amber-300">
         <span class="size-2 rounded-full bg-[#E05A47] animate-pulse"></span>
-        <span>Coming Soon · Spring 2026 · Campus Launch</span>
+        <span>Coming Soon · Community Gear-Sharing Platform</span>
       </div>
 
-      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] text-white">
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight leading-[1.08] text-white">
         Borrow anything.<br>
         <span class="text-gradient">Lend everything.</span><br>
         Zero hassle.
       </h1>
 
       <p class="max-w-2xl mx-auto text-base sm:text-lg text-white/75 font-normal leading-relaxed">
-        A neighborhood gear-sharing community where everyday people lend power tools, cameras, camping tents, and appliances to each other with 100% refundable security deposit protection.
+        A community gear-sharing platform where everyday people lend power tools, cameras, camping tents, and appliances to each other with 100% refundable security deposit protection.
       </p>
 
-      <!-- Countdown Clock -->
-      <div class="pt-6 pb-2">
-        <div class="flex items-center justify-center gap-3 sm:gap-5">
-          <div class="flex flex-col items-center">
-            <div id="days" class="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 flex items-center justify-center font-heading text-2xl sm:text-3xl font-black text-white shadow-inner">00</div>
-            <span class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/60 mt-1">Days</span>
-          </div>
-          <span class="font-heading text-2xl sm:text-3xl font-bold text-white/40 -mt-4">:</span>
-          <div class="flex flex-col items-center">
-            <div id="hours" class="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 flex items-center justify-center font-heading text-2xl sm:text-3xl font-black text-white shadow-inner">00</div>
-            <span class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/60 mt-1">Hours</span>
-          </div>
-          <span class="font-heading text-2xl sm:text-3xl font-bold text-white/40 -mt-4">:</span>
-          <div class="flex flex-col items-center">
-            <div id="mins" class="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 flex items-center justify-center font-heading text-2xl sm:text-3xl font-black text-white shadow-inner">00</div>
-            <span class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/60 mt-1">Mins</span>
-          </div>
-          <span class="font-heading text-2xl sm:text-3xl font-bold text-white/40 -mt-4">:</span>
-          <div class="flex flex-col items-center">
-            <div id="secs" class="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 flex items-center justify-center font-heading text-2xl sm:text-3xl font-black text-white shadow-inner">00</div>
-            <span class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/60 mt-1">Secs</span>
-          </div>
-        </div>
+      <!-- Clean Notify Box -->
+      <div id="notify" class="pt-6 max-w-md mx-auto">
+        <form id="hero-notify-form" onsubmit="handleNotifySubmit(event)" class="flex flex-col sm:flex-row gap-2.5 p-1.5 rounded-2xl bg-white/15 backdrop-blur-md border border-white/25 shadow-xl">
+          <input 
+            type="email" 
+            id="notify-email" 
+            required 
+            placeholder="Enter your email address..." 
+            class="flex-1 px-4 py-3 rounded-xl bg-transparent text-white placeholder-white/50 text-sm focus:outline-none"
+          >
+          <button 
+            type="submit" 
+            id="notify-btn"
+            class="px-6 py-3 rounded-xl bg-[#E05A47] hover:bg-[#C94532] text-white font-heading font-extrabold text-sm transition shadow-md whitespace-nowrap"
+          >
+            Notify Me
+          </button>
+        </form>
+        <p id="notify-msg" class="text-xs text-white/70 mt-3 font-medium">Be the first to know when we launch in your area. Zero spam.</p>
       </div>
-    </div>
-  </section>
 
-  <!-- VIP Waitlist Card -->
-  <section id="waitlist" class="relative -mt-10 max-w-4xl mx-auto px-4 z-20">
-    <div class="rounded-3xl bg-gradient-to-br from-[#E05A47] to-[#D94532] p-8 sm:p-10 shadow-2xl text-white">
-      <div class="grid lg:grid-cols-2 gap-8 items-center">
-        <div class="space-y-4">
-          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-xs font-bold tracking-wide">
-            ★ LIMITED TO FIRST 500 MEMBERS
-          </div>
-          <h2 class="font-heading text-2xl sm:text-3xl font-extrabold leading-tight">
-            Claim Your VIP Early Access Pass
-          </h2>
-          <p class="text-sm text-white/85 leading-relaxed">
-            Early backers get lifetime founding member benefits, guaranteed zero platform fees for 3 months, and ₹500 in rental credits.
-          </p>
-          <ul class="space-y-2 text-xs sm:text-sm font-semibold text-white/90">
-            <li class="flex items-center gap-2">✓ Zero Platform Fees for first 90 days</li>
-            <li class="flex items-center gap-2">✓ ₹500 Instant Rental Credit on launch</li>
-            <li class="flex items-center gap-2">✓ Exclusive Founder Karma Badge (+100 Trust)</li>
-          </ul>
-        </div>
-
-        <div class="bg-white/10 backdrop-blur-xl border border-white/25 rounded-2xl p-6 sm:p-7 shadow-xl">
-          <div id="waitlist-card">
-            <form id="waitlist-form" class="space-y-3.5" onsubmit="handleWaitlistSubmit(event)">
-              <div class="flex p-1 bg-white/15 rounded-xl text-xs font-bold">
-                <button type="button" id="tab-email" onclick="switchContactType('email')" class="flex-1 py-1.5 rounded-lg bg-white text-[#E05A47] transition shadow">Email</button>
-                <button type="button" id="tab-whatsapp" onclick="switchContactType('whatsapp')" class="flex-1 py-1.5 rounded-lg text-white/80 hover:text-white transition">WhatsApp</button>
-              </div>
-
-              <div>
-                <label class="block text-[11px] font-bold text-white/80 uppercase tracking-wider mb-1">Your Full Name</label>
-                <input type="text" id="name" required placeholder="e.g. Rahul Sharma" class="w-full px-4 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white">
-              </div>
-
-              <div>
-                <label id="contact-label" class="block text-[11px] font-bold text-white/80 uppercase tracking-wider mb-1">Email Address</label>
-                <input type="text" id="contact" required placeholder="rahul@example.com" class="w-full px-4 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white">
-              </div>
-
-              <div>
-                <label class="block text-[11px] font-bold text-white/80 uppercase tracking-wider mb-1">Gear Category Interest</label>
-                <select id="category" class="w-full px-4 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white text-sm focus:outline-none focus:ring-2 focus:ring-white [&>option]:text-black">
-                  <option value="Power Tools">Power Tools & DIY Drills</option>
-                  <option value="Camping">Camping Tents & Outdoor Gear</option>
-                  <option value="Cameras">DSLR Cameras & Projectors</option>
-                  <option value="Kitchen">Kitchen Appliances & Air Fryers</option>
-                  <option value="Gaming">Party Speakers & Consoles</option>
-                  <option value="Books">Books & Course Material</option>
-                </select>
-              </div>
-
-              <button type="submit" id="submit-btn" class="w-full py-3 rounded-xl bg-white hover:bg-neutral-100 text-[#E05A47] font-heading font-black text-sm tracking-wide transition shadow-lg flex items-center justify-center gap-2">
-                <span>Join VIP Waitlist</span> →
-              </button>
-              <p class="text-[10px] text-center text-white/60">Strictly no spam. We will only notify you when doors open.</p>
-            </form>
-          </div>
-
-          <!-- Success State -->
-          <div id="waitlist-success" class="hidden text-center space-y-4 py-4">
-            <div class="size-14 bg-emerald-400/20 border border-emerald-400/40 rounded-full flex items-center justify-center mx-auto text-emerald-300 text-2xl font-bold">✓</div>
-            <h3 class="font-heading text-2xl font-extrabold text-white">You're on the list! 🎉</h3>
-            <p class="text-xs text-white/85">
-              Welcome aboard, <span id="user-display-name" class="font-bold text-amber-300"></span>. You are officially early adopter <span id="queue-number" class="font-extrabold underline text-amber-300">#145</span>.
-            </p>
-            <div class="p-3 bg-white/10 rounded-xl border border-white/20 space-y-1">
-              <span class="text-[10px] font-bold uppercase tracking-wider text-white/60">Your VIP Referral Code</span>
-              <p id="ref-code" class="font-heading text-xl font-black text-amber-300 tracking-widest">MITR-VIP-145</p>
-            </div>
-          </div>
-        </div>
+      <!-- Quick Trust Indicators -->
+      <div class="pt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-white/70">
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="size-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          100% Refundable Escrow
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="size-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          Verified Community Members
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="size-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          Safe Handover Protocol
+        </span>
       </div>
     </div>
   </section>
@@ -192,100 +130,188 @@
   <!-- Benefits Section -->
   <section id="benefits" class="py-20 px-4 max-w-6xl mx-auto">
     <div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
-      <span class="px-3 py-1 rounded-full bg-[#FFF5F2] border border-[#E05A47]/30 text-[#E05A47] text-xs font-bold tracking-wide">WHAT MITRKOSH PROVIDES</span>
-      <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-[#1C1917]">A Smarter Way to Use Things</h2>
-      <p class="text-sm sm:text-base text-[#66625D]">Built for students, hobbyists, and neighbors — borrow without buying, and earn from things that sit idle in your closet.</p>
+      <span class="px-3 py-1 rounded-full bg-[#FFF5F2] border border-[#E05A47]/30 text-[#E05A47] text-xs font-bold tracking-wide">
+        WHAT MITRKOSH PROVIDES
+      </span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-[#1C1917]">
+        A Smarter Way to Use Things
+      </h2>
+      <p class="text-sm sm:text-base text-[#66625D]">
+        Built for students, hobbyists, and neighbors — borrow without buying, and let your idle items work for you.
+      </p>
     </div>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-3">
+      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm hover:shadow-md transition space-y-3">
         <div class="size-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl">🛠️</div>
-        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Access Without Buying</h3>
-        <p class="text-xs text-[#66625D] leading-relaxed">Borrow tools, cameras, and tents from verified neighbors for ₹80–₹150/day instead of paying thousands upfront.</p>
+        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Access Gear Without Buying</h3>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Need a power drill for a day or a camera for a weekend trip? Borrow it from a verified neighbor instead of purchasing expensive equipment.
+        </p>
       </div>
 
-      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-3">
-        <div class="size-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-xl">💰</div>
-        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Turn Idle Items into Cash</h3>
-        <p class="text-xs text-[#66625D] leading-relaxed">Your gear can earn ₹1,000 to ₹5,000/month while helping someone in your local community.</p>
+      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm hover:shadow-md transition space-y-3">
+        <div class="size-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-xl">🤝</div>
+        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Put Idle Items to Good Use</h3>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Most specialty gear sits in closets 95% of the year. Share your equipment safely with your community when you are not using it.
+        </p>
       </div>
 
-      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-3">
+      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm hover:shadow-md transition space-y-3">
         <div class="size-12 rounded-2xl bg-violet-500/10 text-violet-600 flex items-center justify-center font-bold text-xl">🛡️</div>
         <h3 class="font-heading text-base font-extrabold text-[#1C1917]">100% Refundable Deposit</h3>
-        <p class="text-xs text-[#66625D] leading-relaxed">Security deposits are held safely in escrow and refunded to your UPI within 60s of item return.</p>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Borrower security deposits are held securely in automated escrow and refunded automatically upon safe return of the item.
+        </p>
       </div>
 
-      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-3">
+      <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm hover:shadow-md transition space-y-3">
         <div class="size-12 rounded-2xl bg-rose-500/10 text-rose-600 flex items-center justify-center font-bold text-xl">📍</div>
-        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Safe Handover Hubs</h3>
-        <p class="text-xs text-[#66625D] leading-relaxed">Meet at designated pickup hubs with a 6-digit OTP and physical inspection checklist — zero awkwardness.</p>
+        <h3 class="font-heading text-base font-extrabold text-[#1C1917]">Safe Handover Protocol</h3>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Structured physical inspection checklists and verification codes ensure transparent handovers with zero ambiguity.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Categories Sneak Peek -->
+  <!-- Categories Sneak Peek (No Prices) -->
   <section id="categories" class="py-20 px-4 bg-[#F5F2EB] border-y border-[#E8E3DC]">
     <div class="max-w-6xl mx-auto">
       <div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
-        <span class="px-3 py-1 rounded-full bg-amber-500/15 text-amber-800 text-xs font-bold tracking-wide">SNEAK PEEK CATALOG</span>
-        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-[#1C1917]">What You Will Be Able to Borrow</h2>
+        <span class="px-3 py-1 rounded-full bg-amber-500/15 text-amber-800 text-xs font-bold tracking-wide">
+          SNEAK PEEK CATALOG
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-[#1C1917]">
+          What You Can Borrow & Lend
+        </h2>
+        <p class="text-sm text-[#66625D]">
+          High-utility gear categories ready to share in your community.
+        </p>
       </div>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-amber-50 text-2xl flex items-center justify-center">🔧</span>
-            <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">from ₹80/day</span>
-          </div>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-amber-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-amber-50 text-2xl flex items-center justify-center">🔧</span>
           <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Power Tools & DIY</h3>
-          <p class="text-xs text-[#66625D]">Bosch Hammer Drills, Angle Grinders, Precision Toolkits, Stud Finders</p>
+          <p class="text-xs text-[#66625D]">Hammer drills, angle grinders, sanders, socket sets, precision toolkits</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> Cordless Drill & Impact Driver Kits</li>
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> Precision Screwdriver & Bit Sets</li>
+            <li class="flex items-center gap-2"><span class="text-amber-600">✓</span> Laser Measure & Stud Finders</li>
+          </ul>
         </div>
 
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-emerald-50 text-2xl flex items-center justify-center">⛺</span>
-            <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">from ₹120/day</span>
-          </div>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-emerald-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-emerald-50 text-2xl flex items-center justify-center">⛺</span>
           <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Camping & Trekking</h3>
-          <p class="text-xs text-[#66625D]">Quechua Waterproof Dome Tents, Gas Stoves, 65L Rucksacks, Headlamps</p>
+          <p class="text-xs text-[#66625D]">Waterproof dome tents, sleeping bags, portable camp stoves, trekking gear</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> 2 to 4-Person Waterproof Tents</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> Portable Camp Stoves & Cookware</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> 60L+ Expedition Rucksacks</li>
+          </ul>
         </div>
 
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-violet-50 text-2xl flex items-center justify-center">📷</span>
-            <span class="text-xs font-bold text-violet-700 bg-violet-50 px-2.5 py-1 rounded-full border border-violet-200">from ₹300/day</span>
-          </div>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-violet-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-violet-50 text-2xl flex items-center justify-center">📷</span>
           <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Cameras & AV Tech</h3>
-          <p class="text-xs text-[#66625D]">Sony Alpha Mirrorless, Rode Wireless Microphones, 1080p Movie Projectors</p>
+          <p class="text-xs text-[#66625D]">Mirrorless bodies, portrait lenses, wireless microphones, HD projectors</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-violet-600">✓</span> Mirrorless Cameras & Prime Lenses</li>
+            <li class="flex items-center gap-2"><span class="text-violet-600">✓</span> Wireless Lapel & Shotgun Mics</li>
+            <li class="flex items-center gap-2"><span class="text-violet-600">✓</span> Portable 1080p Movie Projectors</li>
+          </ul>
         </div>
 
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-rose-50 text-2xl flex items-center justify-center">🍳</span>
-            <span class="text-xs font-bold text-rose-700 bg-rose-50 px-2.5 py-1 rounded-full border border-rose-200">from ₹90/day</span>
-          </div>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-rose-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-rose-50 text-2xl flex items-center justify-center">🍳</span>
           <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Kitchen Appliances</h3>
-          <p class="text-xs text-[#66625D]">Philips Air Fryers, Nutribullet Blenders, Portable Barbecue Griddles</p>
+          <p class="text-xs text-[#66625D]">Digital air fryers, high-speed blenders, electric barbecue grills, OTGs</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-rose-600">✓</span> High-Capacity Digital Air Fryers</li>
+            <li class="flex items-center gap-2"><span class="text-rose-600">✓</span> High-Wattage Blender Systems</li>
+            <li class="flex items-center gap-2"><span class="text-rose-600">✓</span> Electric Barbecue & Sandwich Grills</li>
+          </ul>
         </div>
 
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-cyan-50 text-2xl flex items-center justify-center">🎮</span>
-            <span class="text-xs font-bold text-cyan-700 bg-cyan-50 px-2.5 py-1 rounded-full border border-cyan-200">from ₹200/day</span>
-          </div>
-          <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Party & Gaming</h3>
-          <p class="text-xs text-[#66625D]">PlayStation 5 with 2 Controllers, JBL Xtreme 3 Party Speakers, Board Games</p>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-cyan-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-cyan-50 text-2xl flex items-center justify-center">🎮</span>
+          <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Party & Entertainment</h3>
+          <p class="text-xs text-[#66625D]">Gaming consoles, extra gamepads, party Bluetooth speakers, board games</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-cyan-600">✓</span> Gaming Consoles & Multiplayer Gamepads</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-600">✓</span> Heavy Bass Portable Speakers</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-600">✓</span> Premium Board Game Sets</li>
+          </ul>
         </div>
 
-        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] shadow-sm space-y-4">
-          <div class="flex items-center justify-between">
-            <span class="size-12 rounded-2xl bg-indigo-50 text-2xl flex items-center justify-center">📚</span>
-            <span class="text-xs font-bold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-full border border-indigo-200">from ₹20/day</span>
-          </div>
-          <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Academic Books</h3>
-          <p class="text-xs text-[#66625D]">Engineering Hardcovers, GATE Study Guides, Data-Intensive Computing Texts</p>
+        <div class="bg-white rounded-3xl p-6 border border-[#E8E3DC] hover:border-indigo-400 transition hover:-translate-y-1 shadow-sm hover:shadow-md space-y-3">
+          <span class="size-12 rounded-2xl bg-indigo-50 text-2xl flex items-center justify-center">📚</span>
+          <h3 class="font-heading text-lg font-extrabold text-[#1C1917]">Books & Learning Material</h3>
+          <p class="text-xs text-[#66625D]">Engineering textbooks, competitive exam reference manuals, tech guides</p>
+          <ul class="text-xs text-[#1C1917]/75 space-y-1.5 font-medium pt-2 border-t border-[#F0EBE1]">
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> Engineering Textbooks & Reference Volumes</li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> Competitive Exam Prep Bundles</li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600">✓</span> Technical Systems Design Guides</li>
+          </ul>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety & Security Section -->
+  <section id="safety" class="py-20 px-4 max-w-4xl mx-auto">
+    <div class="text-center mb-12 space-y-3">
+      <span class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-bold tracking-wide border border-emerald-200">
+        PEACE OF MIND GUARANTEE
+      </span>
+      <h2 class="font-heading text-3xl font-extrabold text-[#1C1917]">How Your Gear is Protected</h2>
+      <p class="text-sm text-[#66625D]">Trust is the core pillar of MitrKosh. We protect both lenders and borrowers.</p>
+    </div>
+
+    <div class="space-y-4">
+      <div class="bg-white rounded-2xl p-6 border border-[#E8E3DC] space-y-2">
+        <h4 class="font-heading font-bold text-sm text-[#1C1917] flex items-center gap-2">
+          <span class="text-emerald-600">🔒</span> Automated Security Deposit Escrow
+        </h4>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Every borrowing request is backed by a security deposit held in automated escrow. Funds are never released to the lender unless damage occurs, and are refunded directly to the borrower upon inspection.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-[#E8E3DC] space-y-2">
+        <h4 class="font-heading font-bold text-sm text-[#1C1917] flex items-center gap-2">
+          <span class="text-emerald-600">📋</span> 2-Minute Handover Condition Checklist
+        </h4>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          When handing over an item, both parties quickly review standard condition checklist items (accessories, power state, cosmetics) on their phone. Both sign off digitally with a verification code.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-[#E8E3DC] space-y-2">
+        <h4 class="font-heading font-bold text-sm text-[#1C1917] flex items-center gap-2">
+          <span class="text-emerald-600">⚡</span> Instant Deposit Return
+        </h4>
+        <p class="text-xs text-[#66625D] leading-relaxed">
+          Once the item is handed back in good condition and the lender confirms the return, the security deposit is automatically credited back to your account within 60 seconds.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final Call to Action -->
+  <section class="py-16 px-4 bg-gradient-to-br from-[#E05A47] to-[#D94532] text-white text-center">
+    <div class="max-w-2xl mx-auto space-y-5">
+      <h2 class="font-heading text-3xl font-extrabold">Ready to share gear in your community?</h2>
+      <p class="text-sm text-white/85">
+        Be the first to know when MitrKosh launches in your campus or neighborhood.
+      </p>
+      <div class="pt-2">
+        <a href="#notify" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-[#E05A47] hover:bg-neutral-100 font-heading font-bold text-sm shadow-lg transition">
+          Sign Up for Updates →
+        </a>
       </div>
     </div>
   </section>
@@ -293,71 +319,37 @@
   <!-- Footer -->
   <footer class="bg-white border-t border-[#E8E3DC] py-10 px-4 text-center">
     <div class="max-w-4xl mx-auto space-y-3">
-      <p class="font-heading text-xl font-extrabold text-[#1C1917]">Mitr<span class="text-[#E05A47]">Kosh</span></p>
-      <p class="text-xs text-[#66625D]">Peer-to-peer gear lending made safe, simple, and affordable · Spring 2026</p>
-      <p class="text-[11px] text-[#A8A29E]">© 2026 MitrKosh. All rights reserved.</p>
+      <p class="font-heading text-xl font-extrabold text-[#1C1917]">
+        Mitr<span class="text-[#E05A47]">Kosh</span>
+      </p>
+      <p class="text-xs text-[#66625D]">
+        Peer-to-peer gear lending made safe, simple, and community-driven.
+      </p>
+      <p class="text-[11px] text-[#A8A29E]">
+        © 2026 MitrKosh. All rights reserved.
+      </p>
     </div>
   </footer>
 
-  <!-- Live Countdown & Waitlist Form Script -->
+  <!-- Notification Form Script -->
   <script>
-    const launchDate = new Date("2026-03-20T00:00:00+05:30").getTime();
-
-    function updateCountdown() {
-      const now = new Date().getTime();
-      const diff = Math.max(0, launchDate - now);
-      const d = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-      const s = Math.floor((diff % (1000 * 60)) / 1000);
-
-      document.getElementById("days").innerText = String(d).padStart(2, '0');
-      document.getElementById("hours").innerText = String(h).padStart(2, '0');
-      document.getElementById("mins").innerText = String(m).padStart(2, '0');
-      document.getElementById("secs").innerText = String(s).padStart(2, '0');
-    }
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-
-    function switchContactType(type) {
-      const tabEmail = document.getElementById('tab-email');
-      const tabWhatsApp = document.getElementById('tab-whatsapp');
-      const label = document.getElementById('contact-label');
-      const input = document.getElementById('contact');
-
-      if (type === 'email') {
-        tabEmail.className = "flex-1 py-1.5 rounded-lg bg-white text-[#E05A47] transition shadow";
-        tabWhatsApp.className = "flex-1 py-1.5 rounded-lg text-white/80 hover:text-white transition";
-        label.innerText = "Email Address";
-        input.placeholder = "rahul@example.com";
-        input.type = "email";
-      } else {
-        tabWhatsApp.className = "flex-1 py-1.5 rounded-lg bg-white text-[#E05A47] transition shadow";
-        tabEmail.className = "flex-1 py-1.5 rounded-lg text-white/80 hover:text-white transition";
-        label.innerText = "WhatsApp Number";
-        input.placeholder = "+91 98765 43210";
-        input.type = "tel";
-      }
-    }
-
-    function handleWaitlistSubmit(event) {
+    function handleNotifySubmit(event) {
       event.preventDefault();
-      const btn = document.getElementById('submit-btn');
-      const name = document.getElementById('name').value.trim();
-      const contact = document.getElementById('contact').value.trim();
-      if (!name || !contact) return;
+      const input = document.getElementById('notify-email');
+      const btn = document.getElementById('notify-btn');
+      const msg = document.getElementById('notify-msg');
+
+      if (!input.value.trim()) return;
 
       btn.disabled = true;
-      btn.innerText = "Securing your spot...";
+      btn.innerText = "Submitting...";
 
       setTimeout(() => {
-        const queueNum = 142 + Math.floor(Math.random() * 8);
-        document.getElementById('user-display-name').innerText = name;
-        document.getElementById('queue-number').innerText = "#" + queueNum;
-        document.getElementById('ref-code').innerText = "MITR-VIP-" + queueNum;
-        document.getElementById('waitlist-card').classList.add('hidden');
-        document.getElementById('waitlist-success').classList.remove('hidden');
-      }, 700);
+        input.value = "";
+        btn.disabled = false;
+        btn.innerText = "Notify Me";
+        msg.innerHTML = "<span class='text-emerald-400 font-bold'>✓ Thanks! We will let you know as soon as MitrKosh launches in your area.</span>";
+      }, 600);
     }
   </script>
 </body>
